@@ -1,0 +1,12 @@
+.search input {
+  min-width: 550px;
+  min-height: 70px;
+  padding: 10px 30px;
+
+  border-radius: 50px;
+  border: none;
+
+  font-size: 16px;
+  font-family: "Plus Jakarta Sans";
+  font-weight: 300;
+}

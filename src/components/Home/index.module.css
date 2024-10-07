@@ -1,0 +1,84 @@
+.homeOuterContainer {
+  max-width: 1920px;
+  min-height: 850px;
+  background-image: url("../Home/media/HomePicture.jpg");
+
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.homeInnerContainer {
+  min-width: 790px;
+  max-height: 160px;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+
+  gap: 5px;
+  padding: auto;
+  margin-top: 50px;
+  margin-bottom: auto;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+
+  font-size: 64px;
+  font-weight: 800;
+  font-family: "Plus Jakarta Sans";
+  word-spacing: 10px;
+}
+
+.title h1 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.homeInnerContainer p {
+  color: #1c1c1c;
+  font-size: 32px;
+  font-weight: 400;
+  font-family: "Plus Jakarta Sans";
+}
+
+.optionsPlusSearch {
+  margin-top: 35px;
+  flex-direction: column;
+  display: flex;
+  gap: 15px;
+}
+
+.options {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+
+  color: #1c1c1c;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Plus Jakarta Sans";
+}
+
+.options div {
+  background-color: #ffffff;
+  min-width: 45px;
+  min-height: 20px;
+
+  padding: 10px 25px;
+  border-radius: 30px;
+}
+
+.homeInnerContainer h1 {
+  font-size: 64px;
+  font-family: "Plus Jakarta Sans";
+}
