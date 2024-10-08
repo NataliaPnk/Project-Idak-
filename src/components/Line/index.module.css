@@ -1,0 +1,22 @@
+.line {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.line div {
+  min-height: 5px;
+  border-radius: 20px;
+  background-color: #e93740;
+}
+
+.lineFirstPart {
+  width: 10%;
+  min-width: 80px;
+  margin-right: 5px;
+}
+
+.lineSecondPart {
+  width: 3%;
+  min-width: 15px;
+}

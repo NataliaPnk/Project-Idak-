@@ -6,16 +6,15 @@ import ResidentialSpaces_02 from "./media/ResidentialSpaces_02.png";
 import EventSpaces_03 from "./media/EventSpaces_03.png";
 import CommercialProperties_04 from "./media/CommercialProperties_04.png";
 import More_05 from "./media/More_05.png";
+import Line from "../Line";
 
 export default function TopCategories() {
   return (
     <div className={s.topCategoriesOuterContainer}>
       <div className={s.topCategoriesInnerContainer}>
         <h2>Browse From Top Categories</h2>
-        <div className={s.line}>
-          <div className={s.lineFirstPart}></div>
-          <div className={s.lineSecondPart}></div>
-        </div>
+
+        <Line />
 
         <div className={s.categories}>
           <div>

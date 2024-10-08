@@ -29,7 +29,7 @@
   color: #1c1c1c;
 }
 
-.line {
+/* .line {
   display: flex;
   flex-direction: row;
   margin-top: 20px;
@@ -50,7 +50,7 @@
 .lineSecondPart {
   width: 3%;
   min-width: 15px;
-}
+} */
 
 .categories {
   width: 90%;
