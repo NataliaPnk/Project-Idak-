@@ -6,6 +6,7 @@ import ProductsPresentation from "./components/ProductsPresentation";
 import TopCategories from "./components/TopCategories";
 import productsData from './data/productsData.js'
 import PerformanceMetrics from "./components/PerformanceMetrics/index.jsx";
+import Locations from "./components/Locations/index.jsx";
 
 function App() {
 
@@ -19,6 +20,7 @@ const [ products, setProducts ] = useState(productsData)
       <TopCategories />
       <ProductsPresentation products={products} />
       <PerformanceMetrics />
+      <Locations />
     </div>
   );
 }
