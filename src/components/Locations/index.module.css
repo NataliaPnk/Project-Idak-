@@ -1,0 +1,29 @@
+.locationsContainer {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.locationsContainer h2 {
+  font-size: 48px;
+  font-family: "Plus Jakarta Sans";
+  font-weight: 600;
+  color: #030303;
+
+  padding-top: 40px;
+}
+
+.allPhotos {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.centerPhotos {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 25px;
+  padding: 70px;
+}
