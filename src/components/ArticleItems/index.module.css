@@ -1,0 +1,35 @@
+.articleItems {
+  max-width: 700px;
+  width: 100%;
+  min-width: 500px;
+  min-height: 170px;
+
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.textContentItems span {
+  font-size: 14px;
+  font-family: "Plus Jakarta Sans";
+  font-weight: 700;
+  color: #e93740;
+}
+
+.textContentItems h4 {
+  font-size: 20px;
+  font-family: "Plus Jakarta Sans";
+  font-weight: 700;
+  color: #030303;
+
+  padding-top: 5px;
+}
+
+.textContentItems p {
+  font-size: 16px;
+  font-family: "Plus Jakarta Sans";
+  font-weight: 400;
+  color: #8b8b8b;
+
+  padding-top: 5px;
+}
